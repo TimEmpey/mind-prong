@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@100;400;700&family=Raleway:ital,wght@0,300;0,400;1,600&display=swap');
+
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+nav{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+nav p{
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
+    margin-inline: 40px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+nav p:focus,
+nav p:hover {
+    color: #000000;
+}
+
+nav p:focus:after,
+nav p:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+nav p:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background-color: #000000;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+/* nav-buffer{
+    height: 30vh;
+} */

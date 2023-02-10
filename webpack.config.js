@@ -20,7 +20,15 @@ module.exports = {
       title: 'mind-prong',
       template: './src/index.html',
       inject: 'body'
-    })
+    }),
+    new HtmlWebpackPlugin({
+        filename: 'services/services.html',
+        template: './src/html/services.html'
+    }),
+    new HtmlWebpackPlugin({
+        filename: 'services/contact.html',
+        template: './src/html/contact.html'
+    }),
   ],
   module: {
     rules: [
