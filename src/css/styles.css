@@ -6,6 +6,8 @@ font-family: 'Libre Franklin', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
 
+/*---------------------------  Intro ------------------------*/
+
 .h-intro{
     display: flex;
     justify-content: end;
@@ -30,16 +32,24 @@ font-family: 'Raleway', sans-serif;
     position: absolute;
     z-index: 1;
     bottom: 0;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     padding-right: 50px
 }
 
 .company-name h1{
-    font-size: 130px;
+    font-size: 5rem;
     margin-bottom: -20px;
 }
 
 .company-name p{
     font-size: 30px;
     margin-top: 10px;
+}
+
+/*---------------------------  Practices ------------------------*/
+
+.h-practices{
+    height: 100vh;
 }

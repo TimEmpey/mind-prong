@@ -7,7 +7,8 @@ font-family: 'Raleway', sans-serif;
 */
 
 nav{
-    height: 15vh;
+    padding-top: 3vh;
+    height: 10vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -23,7 +24,7 @@ nav a:hover{
 
 nav p{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2rem;
     display: inline-block;
     margin-inline: 40px;
     color: #000000;
