@@ -44,12 +44,68 @@ font-family: 'Raleway', sans-serif;
 }
 
 .company-name p{
-    font-size: 30px;
+    font-size: 1rem;
     margin-top: 10px;
+}
+
+/*----------------------------  Button --------------------------*/
+
+.p-button{
+    border-radius: 50px;
+    padding: 15px;
+    padding-inline: 30px;
+    border: none;
+    background-color: #3B3B3B;
+    color: white;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*---------------------------  Practices ------------------------*/
 
+.h-practices .p-title{
+    margin-left: 10vw;
+}
+
 .h-practices{
-    height: 100vh;
+    height: 90vh;
+}
+
+.h-practices .box{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    color: white;
+}
+
+.h-practices .box-wrapper{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: row;
+    bottom: 0;
+}
+
+.h-practices .p-box-1{
+    background-color: #767676;
+}
+.h-practices .p-box-2{
+    background-color: #3B3B3B;
+}
+.h-practices .p-box-3{
+    background-color: #000000;
+}
+
+.practice-title{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.h-practices .box p{
+    margin-inline: 40px;
 }
