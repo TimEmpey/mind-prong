@@ -52,7 +52,8 @@ font-family: 'Raleway', sans-serif;
 /*----------------------------  Button --------------------------*/
 
 .h-button-wrapper{
-    height: 10vh;
+    height: 20vh;
+    margin-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -72,14 +73,14 @@ font-family: 'Raleway', sans-serif;
 /*---------------------------  Practices ------------------------*/
 
 .h-practices .p-title{
-    margin-left: 10vw;
+    margin-left: 16vw;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 3rem;
 }
 
 .h-practices{
-    height: 80vh;
+    height: 90vh;
 }
 
 .h-practices .box{
@@ -94,13 +95,14 @@ font-family: 'Raleway', sans-serif;
     width: 100vw;
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: center;
     flex-direction: row;
-    bottom: 0;
+    /* bottom: 0; */
 }
 
 .h-practices .p-box-1{
     background-color: #767676;
+    border-radius:30px 0 0 30px;
 }
 .h-practices .p-box-2{
     background-color: #3B3B3B;
@@ -120,4 +122,11 @@ font-family: 'Raleway', sans-serif;
     margin-inline: 40px;
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
+}
+
+/*---------------------------  Footer ------------------------*/
+
+.h-footer{
+    height: 100vh;
+    position: relative;
 }
