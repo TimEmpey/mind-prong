@@ -127,6 +127,40 @@ font-family: 'Raleway', sans-serif;
 /*---------------------------  Footer ------------------------*/
 
 .h-footer{
-    height: 100vh;
+    height: 60vh;
+    padding-top: 5vh;
     position: relative;
+}
+
+.h-footer .f-top{
+    display: flex;
+    justify-content: center;
+}
+
+.f-top .f-name{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.f-top .f-slogan{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.h-footer .col-5 h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.h-footer .col-5 p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.f-email{
+    padding-top: 250px;
+    text-align: center;
 }
