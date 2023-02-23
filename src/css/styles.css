@@ -6,6 +6,11 @@ font-family: 'Libre Franklin', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
 
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 /*---------------------------  Intro ------------------------*/
 
 .h-intro{
